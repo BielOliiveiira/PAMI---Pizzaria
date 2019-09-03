@@ -10,10 +10,11 @@
         android:id="@+id/lblChopp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="260dp"
         android:text="@string/chopp"
+        android:textColor="#E32608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,10 +22,11 @@
         android:id="@+id/lblPizza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="28dp"
         android:text="@string/pizzas"
+        android:textColor="#E32608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblChopp" />
 
@@ -32,10 +34,11 @@
         android:id="@+id/lblRecheios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
         android:text="@string/recheios"
+        android:textColor="#E32608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblPizza" />
 
@@ -43,10 +46,11 @@
         android:id="@+id/lblPessoas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
         android:text="@string/pessoas"
+        android:textColor="#E32608"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblRecheios" />
 
@@ -62,6 +66,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblChopp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblChopp" />
 
     <EditText
@@ -76,6 +81,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblPizza"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblPizza" />
 
     <EditText
@@ -90,6 +96,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblRecheios"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/lblRecheios" />
 
     <EditText
@@ -104,16 +111,18 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblPessoas"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblPessoas" />
 
     <TextView
         android:id="@+id/lblConsumo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="24dp"
         android:text="@string/consumo"
+        android:textColor="#E32608"
         app:layout_constraintBottom_toTopOf="@+id/lblServicos"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -121,10 +130,11 @@
         android:id="@+id/lblServicos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/servicos"
+        android:textColor="#E32608"
         app:layout_constraintBottom_toTopOf="@+id/lblTotal"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -132,10 +142,11 @@
         android:id="@+id/lblTotal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="16dp"
         android:text="@string/total"
+        android:textColor="#E32608"
         app:layout_constraintBottom_toTopOf="@+id/lblPorPessoa"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -143,10 +154,11 @@
         android:id="@+id/lblPorPessoa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="56dp"
         android:text="@string/porPessoa"
+        android:textColor="#E32608"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -162,10 +174,13 @@
         android:layout_marginBottom="50dp"
         android:onClick="onCalcular"
         android:text="@string/calcular"
+        android:textColor="#EF5F15"
         app:layout_constraintBottom_toTopOf="@+id/lblConsumo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPessoas" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPessoas"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/lblConsumo2"
@@ -175,6 +190,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblConsumo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblConsumo" />
 
     <TextView
@@ -187,6 +203,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblServicos"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblServicos" />
 
     <TextView
@@ -199,6 +216,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblTotal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblTotal" />
 
     <TextView
@@ -209,5 +227,42 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/lblPorPessoa"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lblPorPessoa" />
+
+    <TextView
+        android:id="@+id/lblNome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="168dp"
+        android:gravity="center"
+        android:text="@string/nome"
+        android:textColor="#EF5F15"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/txtChopp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtChopp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNome"
+        app:srcCompat="@drawable/download" />
+
 </android.support.constraint.ConstraintLayout>
